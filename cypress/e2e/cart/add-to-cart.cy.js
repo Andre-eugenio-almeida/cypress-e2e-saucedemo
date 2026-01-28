@@ -36,7 +36,7 @@ describe('Carrinho de Compras - Sauce Demo', () => {
     cy.get('[data-test="remove-sauce-labs-backpack"]').click()
 
     cy.get('.cart_item').should('not.exist')
-    cy.get('.shopping_cart_badge').should('not.exist' )
+    cy.get('.shopping_cart_badge').should('not.exist')
   })
 
 })
