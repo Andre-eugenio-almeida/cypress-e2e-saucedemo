@@ -28,7 +28,8 @@ Login com credenciais inválidas (negativo)
 
 Validação de mensagens de erro
 
-🛒 Carrinho de Compras
+
+### CARRINHO DE COMPRAS 
 
 Adição de um ou mais produtos ao carrinho
 
@@ -37,7 +38,7 @@ Validação dos itens adicionados
 Remoção de itens do carrinho
 
 
-🔄 Ordenação de Produtos
+### ORDENAÇÃO DE PRODUTOS 
 
 Ordenação por preço (menor para maior / maior para menor)
 
