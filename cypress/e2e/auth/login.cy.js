@@ -27,7 +27,7 @@ describe('Login - Sauce Demo', () => {
 
     cy.get('[data-test="error"]')
       .should('be.visible')
-      .and( 'contain.text', 'Username and password do not match' )
+      .and('contain.text', 'Username and password do not match')
   })
 
 })
