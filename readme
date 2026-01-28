@@ -1,5 +1,92 @@
-### Login
-- Login com credenciais válidas
-- Validação de acesso à página de inventário
-- Tentativa de login com senha inválida e validação de mensagem de erro
+### PROJETO DE AUTOMAÇÃO DE TESTES – CYPRESS | SAUCE DEMO
 
+Este projeto foi desenvolvido com o objetivo de praticar e demonstrar conhecimentos em automação de testes end-to-end, utilizando Cypress, aplicando boas práticas adotadas no mercado de QA.
+
+O sistema utilizado para os testes é o Sauce Demo, uma aplicação amplamente usada para estudos e demonstrações de automação.
+
+
+### OBJETIVO DO PROJETO
+
+Demonstrar minhas habilidades em:
+
+Automação de testes funcionais
+
+Criação de cenários realistas de e-commerce
+
+Organização de testes
+
+Escrita de testes claros, reutilizáveis e estáveis
+
+Uso de login via API + UI para otimizar a execução dos testes
+
+
+### CENARIOS AUTOMATIZADOS 
+
+Login com credenciais válidas (positivo)
+
+Login com credenciais inválidas (negativo)
+
+Validação de mensagens de erro
+
+🛒 Carrinho de Compras
+
+Adição de um ou mais produtos ao carrinho
+
+Validação dos itens adicionados
+
+Remoção de itens do carrinho
+
+
+🔄 Ordenação de Produtos
+
+Ordenação por preço (menor para maior / maior para menor)
+
+Ordenação por nome
+
+Validação da ordenação aplicada
+
+
+### CHECKOUT CONPLETO
+
+Preenchimento dos dados do comprador
+
+Validação do resumo da compra
+
+Finalização do pedido com sucesso
+
+
+### ESTATÉGIA DE LOGIN  (API + UI)
+
+Para tornar os testes mais rápidos e estáveis, foi implementada a estratégia de:
+
+Login via API para criação da sessão
+
+
+### TECNOLOGIAS UTILIZADA
+
+Cypress
+
+JavaScript
+
+Node.js
+
+Page Objects (quando aplicável)
+
+Git & GitHub
+
+
+### ESTRUTURA DO PROJETO
+cypress/
+ ├── e2e/
+ │   ├── auth
+         cart
+         checkout
+         inventory
+         session
+         
+     
+
+### CONSIDERAÇÕES FINAIS 
+
+Este projeto reflete meu aprendizado contínuo na área de Qualidade de Software, com foco em automação de testes.
+Estou em constante evolução, buscando aplicar boas práticas, melhorar a legibilidade dos testes e aprender estratégias mais avançadas de QA.
