@@ -1,0 +1,5 @@
+### Login
+- Login com credenciais válidas
+- Validação de acesso à página de inventário
+- Tentativa de login com senha inválida e validação de mensagem de erro
+
