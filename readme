@@ -86,6 +86,13 @@ cypress/
          session
          
      
+####  INTEGRAÇÃO CONTINUA (CI / Pipeline)
+
+O projeto está preparado para execução automática de testes em pipelines de CI utilizando GitHub Actions, garantindo qualidade contínua e evitando regressões.
+
+Workflow de exemplo (.github/workflows/cypress.yml):
+
+Com essa configuração, pushes ou pull requests acionam automaticamente os testes, fornecendo feedback imediato de qualidade.
 
 ### CONSIDERAÇÕES FINAIS 
 
