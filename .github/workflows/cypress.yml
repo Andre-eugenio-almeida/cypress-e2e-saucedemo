@@ -19,3 +19,7 @@ jobs:
 
       - name: Rodar testes Cypress
         run: npx cypress run
+
+      - run: npm ci
+      - run: npx cypress verify   # opcional, mas ajuda a checar se o Cypress está funcionando
+      - run: npx cypress run
