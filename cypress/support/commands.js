@@ -1,3 +1,11 @@
+Cypress.Commands.add('login', () => {
+  cy.visit('https://www.saucedemo.com')
+
+  cy.get('[data-test="username"]').type('standard_user')
+  cy.get('[data-test="password"]').type('secret_sauce', { log: false })
+  cy.get('[data-test="login-button"]').click()
+})
+
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
